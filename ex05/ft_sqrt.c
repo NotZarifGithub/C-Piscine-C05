@@ -6,7 +6,7 @@
 /*   By: mabd-ram <mabd-ram@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 17:54:49 by mabd-ram          #+#    #+#             */
-/*   Updated: 2024/05/14 18:49:38 by mabd-ram         ###   ########.fr       */
+/*   Updated: 2024/05/15 16:39:44 by mabd-ram         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,17 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
+
+/*
+#include <stdio.h>
+
+int main() {
+
+    int number = 16;
+    int square_root = ft_sqrt(number);
+    
+    printf("Square root of %d is: %d\n", number, square_root);
+
+    return 0;
+}
+*/

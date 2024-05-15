@@ -6,7 +6,7 @@
 /*   By: mabd-ram <mabd-ram@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 00:11:44 by mabd-ram          #+#    #+#             */
-/*   Updated: 2024/05/14 02:47:01 by mabd-ram         ###   ########.fr       */
+/*   Updated: 2024/05/15 16:19:54 by mabd-ram         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_iterative_factorial(int nb)
 	ans = 1;
 	if (nb < 0)
 		return (0);
-	if (nb == 1)
-		return (1); 
+	else if (nb == 1)
+		return (1);
 	while (nb > 0)
 	{
 		ans = ans * nb;
@@ -28,3 +28,16 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (ans);
 }
+
+/*
+#include <stdio.h>
+
+int main() {
+    int nb = 5;
+    int factorial = ft_iterative_factorial(nb);
+
+    printf("Factorial of %d is: %d\n", nb, factorial);
+
+    return 0;
+}
+*/
